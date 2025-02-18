@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "To-Do",
+    "slug": "To-Do",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [
+      ["@morrowdigital/watermelondb-expo-plugin"],
+      [
+        "expo-dev-launcher",
+        {
+          "launchMode": "most-recent"
+        }
+      ],
+      "expo-font",
+      "expo-build-properties"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.loganbriggs.ToDo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.loganbriggs.ToDo"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "71748e75-fbdc-4dce-a7f6-abd4ebe2d65e"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/71748e75-fbdc-4dce-a7f6-abd4ebe2d65e"
+    }
+  }
+}
