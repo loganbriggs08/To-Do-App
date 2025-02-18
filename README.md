@@ -1,3 +1,6 @@
+## App Overview
+![image](https://raw.githubusercontent.com/loganbriggs08/To-Do-App/refs/heads/main/assets/structure.png)
+
 ## Setup Instructions
 ### Prerequisites
 Ensure you have the following installed:
